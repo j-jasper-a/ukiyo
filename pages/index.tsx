@@ -20,6 +20,17 @@ const Home: NextPage = () => {
           name="description"
           content="Ukiyo (浮世) is a Japanese fine dining restaurant established in 2022. It is situated at the heart of Dhaka in Gulshan. It dedicates itself to serving memorable tastes with a strong conviction for authenticity. It prides itself in bringing the complete experience of Japanese food instead of being limited to only one or two categories."
         />
+        <meta property="og:locale" content="en_US" />
+        <meta
+          property="og:title"
+          content="Ukiyo (浮世) - Japanese Fine Dining Restaurant"
+        />
+        <meta
+          property="og:description"
+          content="Ukiyo (浮世) is a Japanese fine dining restaurant established in 2022. It is situated at the heart of Dhaka in Gulshan. It dedicates itself to serving memorable tastes with a strong conviction for authenticity. It prides itself in bringing the complete experience of Japanese food instead of being limited to only one or two categories."
+        />
+        <meta property="og:image" content="/assets/images/thumbnail.webp" />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
