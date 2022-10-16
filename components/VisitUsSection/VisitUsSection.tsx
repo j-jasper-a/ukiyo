@@ -109,9 +109,9 @@ function VisitUsSection() {
               >
                 <a target="_blank">
                   <img
-                    className="rounded-2xl"
+                    className="rounded-2xl opacity-90 transition duration-300 hover:opacity-100 hover:transition"
                     src="/assets/images/map.png"
-                    alt="Map"
+                    alt="A map of Ukiyo's location"
                   />
                 </a>
               </Link>
