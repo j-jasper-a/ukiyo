@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth !important;
+  }
+
+  body {
+    @apply bg-dark font-regular text-base text-light;
+  }
+
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: #2d2d2d00;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 100px #d81159;
+  }
+
+  address {
+    @apply not-italic;
+  }
+
+  .dark-glass {
+    @apply bg-dark bg-opacity-70 backdrop-blur-md;
+  }
+
+  .hero-bg {
+    background-image: linear-gradient(
+        #000000,
+        #2d2d2dcc,
+        #2d2d2d00,
+        #2d2d2dcc,
+        #2d2d2d
+      ),
+      url("/assets/images/backgrounds/hero-section.webp");
+    background-size: cover;
+    z-index: -10;
+  }
+
+  .feature {
+    @apply grid grid-cols-2 items-center;
+  }
+
+  .feature-image {
+    @apply w-64 border-b-8 border-brand brightness-75 saturate-0;
+  }
+
+  .history-image {
+    @apply w-64 border-b-8 border-brand brightness-75 saturate-0;
+  }
+
+  .nice-scrollbar {
+    scrollbar-color: #6969dd #000000;
+    scrollbar-width: thin;
+  }
+}
