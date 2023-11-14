@@ -50,8 +50,8 @@ const MobileNavigation = () => {
           <motion.div
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
-            exit={{ x: "-100%" }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
+            exit={{ x: "-200%" }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
             className="absolute left-0 top-0 flex h-screen flex-col items-center justify-center gap-8 bg-dark duration-300"
           >
             {globalLinks.map(({ text, href }) => (
